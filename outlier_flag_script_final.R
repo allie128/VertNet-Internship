@@ -26,7 +26,7 @@ library(spatstat)
 Genus <- "Pseudacris"
 species <- "crucifer"
 
-#Read in range map by choice - make sure it is projected to Geographic
+#Read in range map by choice
 Rangesp1 <- readShapeSpatial(file.choose())
 
 
